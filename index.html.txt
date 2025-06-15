@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Âm nhạc của tôi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      padding: 50px 20px;
+      background: linear-gradient(to right, #1db954, #191414);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    .music-list {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .song {
+      background: #1e1e1e;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tên Nghệ Sĩ</h1>
+    <p>Chào mừng bạn đến với không gian âm nhạc cá nhân của tôi 🎧</p>
+  </header>
+
+  <section class="music-list">
+    <div class="song">
+      <h2>Bài hát 1 - Tên bài hát</h2>
+      <audio controls>
+        <source src="music/song1.mp3" type="audio/mpeg" />
+        Trình duyệt của bạn không hỗ trợ audio.
+      </audio>
+    </div>
+
+    <div class="song">
+      <h2>Bài hát 2 - Tên bài hát</h2>
+      <audio controls>
+        <source src="music/song2.mp3" type="audio/mpeg" />
+        Trình duyệt của bạn không hỗ trợ audio.
+      </audio>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Âm nhạc của tôi. Liên hệ: email@example.com
+  </footer>
+
+</body>
+</html>
