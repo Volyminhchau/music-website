@@ -54,7 +54,6 @@
     <h1>Tên Nghệ Sĩ</h1>
     <p>Chào mừng bạn đến với không gian âm nhạc cá nhân của tôi 🎧</p>
   </header>
-
   <section class="music-list">
     <div class="song">
       <h2>Bài hát 1 - Tên bài hát</h2>
@@ -72,10 +71,8 @@
       </audio>
     </div>
   </section>
-
   <footer>
     &copy; 2025 Âm nhạc của tôi. Liên hệ: email@example.com
   </footer>
-
 </body>
 </html>
