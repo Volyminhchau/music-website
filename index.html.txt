@@ -12,29 +12,24 @@
       color: #f0f0f0;
       text-align: center;
     }
-
     header {
       padding: 50px 20px;
       background: linear-gradient(to right, #1db954, #191414);
     }
-
     header h1 {
       font-size: 3em;
       margin: 0;
     }
-
     header p {
       font-size: 1.2em;
       margin-top: 10px;
       color: #ddd;
     }
-
     .music-list {
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
     }
-
     .song {
       background: #1e1e1e;
       margin: 20px 0;
@@ -42,12 +37,10 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-
     audio {
       width: 100%;
       margin-top: 10px;
     }
-
     footer {
       padding: 20px;
       font-size: 0.9em;
